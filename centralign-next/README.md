@@ -1,6 +1,8 @@
 # CentrAlign AI landing page
 
-Responsive static site. Deploy this folder to Vercel as a static project (no build command required).
+Responsive static site hosted on GitHub Pages at https://centralign.ai.
+
+The `.github/workflows/pages.yml` workflow publishes this folder whenever it changes on `main`. No build command or server is required. GitHub Pages uses the custom domain `centralign.ai`; Cloudflare manages DNS. The `www` hostname redirects to the apex domain through GitHub Pages.
 
 ## Analytics
 The Google Analytics Measurement ID was not included in the message. To enable GA4, add this snippet to the `<head>` of `index.html` and replace `G-XXXXXXXXXX` with your real Measurement ID:
